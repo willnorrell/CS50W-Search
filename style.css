@@ -21,6 +21,7 @@ nav {
 nav > a {
   padding: 1%;
   font-family: sans-serif;
+  font-size: 12px;
 }
 
 img {
@@ -50,7 +51,7 @@ input[type=submit] {
 }
 
 input[type=text] {
-  padding: 5px;
+  padding: 10px;
   border: 2px solid #ccc;
   -webkit-border-radius: 20px;
   border-radius: 35px;

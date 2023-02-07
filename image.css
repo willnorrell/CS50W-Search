@@ -21,6 +21,7 @@ nav {
 nav > a {
   padding: 1%;
   font-family: sans-serif;
+  font-size: 12px;
 }
 
 img {
