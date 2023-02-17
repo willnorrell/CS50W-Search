@@ -19,16 +19,39 @@
             <div class="grid-item">
                 <h4>Advanced Search</h4>
             </div>
+            <hr>
             <div class="grid-item">
-                <form action="https://www.google.com/search">
-                    <input type="text" name="q" size="50">
-                    <input type="text" name="q" size="50">
-                    <input type="text" name="q" size="50">
-                    <input type="text" name="q" size="50">
-                    <div class="input-container">
-                        <input type="submit" value="Advanced Search" class="submitbtn">
-                    </div>
-                </form>
+                <p>Find pages with...</p>
+            </div>
+            <div class="grid-item">
+                <form  action="https://www.google.com/search">
+                    <div class="row mb-3">
+                        <label for="all" class="col-sm-2 col-form-label">All these words</label>
+                        <div class="col-sm-3">
+                          <input type="text" class="form-control" id="all" name="as_q">
+                        </div>
+                      </div>
+                      <div class="row mb-3">
+                        <label for="exact" class="col-sm-2 col-form-label">These words exactly</label>
+                        <div class="col-sm-3">
+                          <input type="text" class="form-control" id="exact" name="as_epq">
+                        </div>
+                      </div>
+                      <div class="row mb-3">
+                        <label for="any" class="col-sm-2 col-form-label">Any of these words</label>
+                        <div class="col-sm-3">
+                          <input type="text" class="form-control" id="any" name="as_oq">
+                        </div>
+                      </div>
+                      <div class="row mb-3">
+                        <label for="none" class="col-sm-2 col-form-label">None of these words</label>
+                        <div class="col-sm-3">
+                          <input type="text" class="form-control" id="none" name="q">
+                        </div>
+                      </div>
+                      <hr>
+                    <button type="submit" class="btn btn-primary">Advanced Search</button>
+                  </form>
             </div>
         </div>
     </body>

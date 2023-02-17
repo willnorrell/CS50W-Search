@@ -32,28 +32,6 @@ nav > a {
   text-align: right;
 }
 
-form {
-  display: block;
-  margin: 16% auto;
-  margin-left: 36%;
-  margin-top: 0px;
-  width: 272px;
-}
-
-input[type=submit] {
-  padding: 15px 15px;
-  background: #ccc;
-  border: 0 none;
-  cursor: pointer;
-  margin: 50px 10px;
-}
-
-input[type=text] {
-  padding: 10px;
-  border: 2px solid #ccc;
-  width: 500px;
-}
-
 .input-container {
   display: flex;
   flex-direction: row;
@@ -68,6 +46,16 @@ h4 {
   padding: 30px;
   color: #d93025;
   font-size: 22px;
+}
+
+p {
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+form {
+  padding: 30px;
+  padding-top: 0px;
 }
 
 /*# sourceMappingURL=advanced.css.map */
